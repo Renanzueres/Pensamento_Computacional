@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fale Comigo</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="quemSou.html">Quem Sou</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Canais de Contato</h2>
+            <p>
+                🐱 <strong>Github: </strong> <a href="https://github.com/Renanzueres" target="_blank">meu git</a><br>
+                🌐 <strong>Linkendin: </strong><a href="https://www.linkedin.com/in/renan-bruno-rocha2805ti" target="_blank">renan-bruno-rocha2805ti</a><br>
+                📸 <strong>Instagram: </strong><a href="https://www.instagram.com/renan.rb_28?igsh=MWxzdmg1bnM1bno4dw%3D%3D&utm_source=qr" target="_blank">renan.rb_28</a><br>
+                📧 <strong>Email: </strong> rbtr2007@gmail.com<br>
+                📱 <strong>WhatsApp: </strong> <a href="https://wa.me/5585998720232" target="_blank">Clique aqui para conversar</a>
+            </p>
+
+            <hr>
+
+            <h2>Envie uma mensagem</h2>
+            <form action="https://formsubmit.co/rbtr2007@gmail.com" method="POST">
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="name" placeholder="Seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="message" rows="5" placeholder="Sua mensagem..." required></textarea>
+
+                <input type="hidden" name="_subject" value="Novo contato do Portfólio!">
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
