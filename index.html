@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <script>(function(){if(localStorage.getItem('rb-theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renan Bruno | Portfólio</title>
     <link rel="stylesheet" href="style.css">
@@ -13,30 +14,55 @@
     </header>
 
     <nav>
-        <a href="index.html">Início</a>
-        <a href="quemSou.html">Quem Sou</a>
-        <a href="projetos.html">Projetos</a>
-        <a href="contato.html">Contato</a>
+        <a href="index.html" class="nav-link">~/inicio</a>
+        <a href="quemSou.html" class="nav-link">~/quem-sou</a>
+        <a href="projetos.html" class="nav-link">~/projetos</a>
+        <a href="contato.html" class="nav-link">~/contato</a>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
     </nav>
 
     <main class="container">
-        <section class="card" style="text-align: center;">
-            <h2>Olá, seja bem-vindo!</h2>
-            <p>Este é o meu espaço digital onde compartilho minha evolução como desenvolvedor, meus projetos e um pouco da minha história.</p>
+        <section class="hero-index">
+            <div class="reveal">
+                <h2>Transformando criatividade em código.</h2>
+                <p>Estudante de Análise e Desenvolvimento de Sistemas em Fortaleza, unindo experiência em suporte técnico e infraestrutura com o desenvolvimento de aplicações web.</p>
+                <div class="hero-actions">
+                    <a href="quemSou.html" class="btn">Quem sou</a>
+                    <a href="projetos.html" class="btn btn-outline">Ver projetos</a>
+                </div>
+            </div>
+            <div class="terminal reveal" aria-hidden="true">
+                <div class="terminal-bar">
+                    <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                    <span class="terminal-title">renan.js</span>
+                </div>
+                <pre class="terminal-body"><code id="terminal-code"></code></pre>
+            </div>
         </section>
 
-        <div class="grid-projetos">
-            <div class="card">
+        <div class="grid-links">
+            <div class="card reveal">
                 <h3>🔍 Quem Sou</h3>
                 <p>Estudante de ADS, entusiasta da tecnologia e fã de cultura geek. Conheça minha trajetória acadêmica e pessoal.</p>
                 <a href="quemSou.html" class="btn">Ver Mais</a>
             </div>
-            <div class="card">
+            <div class="card reveal">
                 <h3>💻 Projetos</h3>
                 <p>Explore minhas aplicações desenvolvidas em HTML, CSS, JS e Python, incluindo a Pokedex e o Relógio Digital.</p>
                 <a href="projetos.html" class="btn">Ver Projetos</a>
             </div>
         </div>
     </main>
+
+    <footer class="site-footer">
+        <p>Feito por Renan Bruno · Caucaia, CE</p>
+        <div class="footer-links">
+            <a href="https://github.com/Renanzueres" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/renan-bruno-rocha2805ti" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>

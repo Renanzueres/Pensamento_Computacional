@@ -2,10 +2,10 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <script>(function(){if(localStorage.getItem('rb-theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Sou Eu - Renan Bruno</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
     <header>
@@ -14,62 +14,59 @@
     </header>
 
     <nav>
-        <a href="index.html">Início</a>
-        <a href="quemSou.html">Quem Sou</a>
-        <a href="projetos.html">Projetos</a>
-        <a href="contato.html">Contato</a>
+        <a href="index.html" class="nav-link">~/inicio</a>
+        <a href="quemSou.html" class="nav-link">~/quem-sou</a>
+        <a href="projetos.html" class="nav-link">~/projetos</a>
+        <a href="contato.html" class="nav-link">~/contato</a>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
     </nav>
 
     <div class="container">
-        
-        <div class="card" style="text-align: center;">
-            <img src="minhafoto.jpeg" alt="Foto de Renan Bruno" class="perfil-img">
+
+        <div class="card reveal" style="text-align: center;">
+            <img src="minhafoto2.jpeg" alt="Foto de Renan Bruno" class="perfil-img">
             <h2>Renan Bruno</h2>
             <p><em>"Transformando minha criatividade em código."</em></p>
             <p>
-                Tenho 18 anos e sou apaixonado por tecnologia. Meu objetivo é criar soluções que impactem positivamente a vida das pessoas, unindo conhecimento técnico e valores sólidos.
+                Tenho 19 anos e sou apaixonado por tecnologia. Meu objetivo é criar soluções que impactem positivamente a vida das pessoas, unindo conhecimento técnico e valores sólidos.
             </p>
         </div>
 
-        <div class="card">
-            <h3>🎓 Formação e Carreira</h3>
+        <div class="card reveal">
+            <h3>🚀 Resumo Profissional</h3>
             <hr>
-            <ul class="lista-customizada">
-                <li>
-                    <strong>💻 Graduação:</strong> Estudante de Análise e Desenvolvimento de Sistemas na <strong>Unifanor Wyden</strong>.
-                </li>
-                <li>
-                    <strong>📚 Cursos Técnicos:</strong> Estudante de programação pela <strong>Fundação Bradesco</strong>.
-                </li>
-                <li>
-                    <strong>🚀 Bootcamps & Projetos:</strong> Formações acadêmicas pela <strong>DIO</strong>, com destaque para o desenvolvimento do projeto <em>Pokedex</em>.
-                </li>
-                <li>
-                    <strong>🇺🇸 Idiomas:</strong> Formado em Inglês pelo <strong>Centro Cearense de Idiomas (CCI)</strong>.
-                </li>
-            </ul>
+            <p>
+                Atualmente, atuo na área de Suporte Técnico e Implantação na <strong>SDB Soluções</strong>, sendo responsável por garantir o pleno funcionamento e a implantação do sistema <strong>A7Pharma</strong>. Possuo forte vivência em resolução de incidentes complexos, gestão de infraestrutura de rede (VPN) e otimização de rotinas utilizando inteligência artificial generativa.
+            </p>
+            <p style="margin-top: 10px;">
+                Sou estudante de Análise e Desenvolvimento de Sistemas e busco unir minha experiência em infraestrutura e atendimento ao cliente com o desenvolvimento de software (HTML, CSS, JavaScript, Python), criando soluções mais eficientes.
+            </p>
+            <br>
+            <a href="carreira.html" class="btn">Ver Currículo Completo e Certificados</a>
         </div>
 
-        <div class="card">
+        <div class="card reveal">
             <h3>⚽ Vida Pessoal & Hobbies</h3>
             <hr>
-            <p>Quando não estou codando, é aqui que você me encontra:</p>
+            <p>Quando não estou codando ou resolvendo chamados de infraestrutura, é aqui que você me encontra:</p>
             <ul class="lista-customizada">
-                <li>
-                    🏁 <strong>Futebol:</strong> Torcedor apaixonado do <strong>Ceará Sporting Club</strong> (Vozão!).
-                </li>
-                <li>
-                    🦸‍♂️ <strong>Cultura Pop:</strong> Fã ávido de quadrinhos, acompanhando tanto o universo <strong>Marvel</strong> quanto a <strong>DC</strong>.
-                </li>
-                <li>
-                    🎮 <strong>Games:</strong> Entusiasta de jogos eletrônicos nas horas vagas.
-                </li>
-                <li>
-                    ⛪ <strong>Fé:</strong> Católico atuante e membro da comunidade na igreja <strong>São José Operário</strong>.
-                </li>
+                <li>🏁 <strong>Futebol:</strong> Torcedor apaixonado do Ceará Sporting Club (Vozão!).</li>
+                <li>🦸‍♂️ <strong>Cultura Pop e Games:</strong> Fã do universo Marvel/DC e entusiasta de jogos nas horas vagas.</li>
+                <li>⛪ <strong>Fé:</strong> Católico atuante na igreja São José Operário.</li>
             </ul>
         </div>
 
     </div>
+
+    <footer class="site-footer">
+        <p>Feito por Renan Bruno · Caucaia, CE</p>
+        <div class="footer-links">
+            <a href="https://github.com/Renanzueres" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/renan-bruno-rocha2805ti" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>
