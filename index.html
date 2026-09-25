@@ -2,10 +2,12 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Portfólio de Renan Bruno, Desenvolvedor em Formação e estudante de Análise e Desenvolvimento de Sistemas.">
     <script>(function(){if(localStorage.getItem('rb-theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renan Bruno | Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Caminho corrigido para o CSS -->
+    <link rel="stylesheet" href="assents/CSS/style.css">
 </head>
 <body>
     <header>
@@ -14,10 +16,11 @@
     </header>
 
     <nav>
-        <a href="index.html" class="nav-link">~/inicio</a>
-        <a href="quemSou.html" class="nav-link">~/quem-sou</a>
-        <a href="projetos.html" class="nav-link">~/projetos</a>
-        <a href="contato.html" class="nav-link">~/contato</a>
+        <!-- Caminhos corrigidos para a raiz -->
+        <a href="/index.html" class="nav-link">~/inicio</a>
+        <a href="assents/html/quemSou.html" class="nav-link">~/quem-sou</a>
+        <a href="assents/html/projetos.html" class="nav-link">~/projetos</a>
+        <a href="assents/html/contato.html" class="nav-link">~/contato</a>
         <button id="theme-toggle" class="theme-toggle">🌙</button>
     </nav>
 
@@ -26,9 +29,19 @@
             <div class="reveal">
                 <h2>Transformando criatividade em código.</h2>
                 <p>Estudante de Análise e Desenvolvimento de Sistemas em Fortaleza, unindo experiência em suporte técnico e infraestrutura com o desenvolvimento de aplicações web.</p>
+                
+                <!-- Nova seção visual de Tech Stack -->
+                <div class="tech-stack" style="margin-bottom: 22px;">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">GLPI</span>
+                </div>
+
                 <div class="hero-actions">
-                    <a href="quemSou.html" class="btn">Quem sou</a>
-                    <a href="projetos.html" class="btn btn-outline">Ver projetos</a>
+                    <a href="assents/html/quemSou.html" class="btn">Quem sou</a>
+                    <a href="assents/html/projetos.html" class="btn btn-outline">Ver projetos</a>
                 </div>
             </div>
             <div class="terminal reveal" aria-hidden="true">
@@ -44,12 +57,12 @@
             <div class="card reveal">
                 <h3>🔍 Quem Sou</h3>
                 <p>Estudante de ADS, entusiasta da tecnologia e fã de cultura geek. Conheça minha trajetória acadêmica e pessoal.</p>
-                <a href="quemSou.html" class="btn">Ver Mais</a>
+                <a href="assents/html/quemSou.html" class="btn">Ver Mais</a>
             </div>
             <div class="card reveal">
                 <h3>💻 Projetos</h3>
                 <p>Explore minhas aplicações desenvolvidas em HTML, CSS, JS e Python, incluindo a Pokedex e o Relógio Digital.</p>
-                <a href="projetos.html" class="btn">Ver Projetos</a>
+                <a href="assents/html/projetos.html" class="btn">Ver Projetos</a>
             </div>
         </div>
     </main>
@@ -63,6 +76,7 @@
     </footer>
 
     <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
-    <script src="script.js"></script>
+    <!-- Caminho corrigido para o JS -->
+    <script src="assents/JS/script.js"></script>
 </body>
 </html>

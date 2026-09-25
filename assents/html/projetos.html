@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Projetos desenvolvidos por Renan Bruno envolvendo HTML, CSS, JavaScript e Python.">
+    <script>(function(){if(localStorage.getItem('rb-theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos | Renan Bruno</title>
+    <link rel="stylesheet" href="/assents/CSS/style.css">
+</head>
+<body>
+    <!-- <header> e <nav> inalterados -->
+    <header>
+        <h1>Meus Projetos</h1>
+    </header>
+    <nav>
+        <a href="/index.html" class="nav-link">~/inicio</a>
+        <a href="quemSou.html" class="nav-link">~/quem-sou</a>
+        <a href="projetos.html" class="nav-link">~/projetos</a>
+        <a href="contato.html" class="nav-link">~/contato</a>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
+
+    <main class="container">
+        <!-- Nova seção de Filtros -->
+        <div class="filtros-projetos reveal">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="js">JavaScript</button>
+            <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+        </div>
+
+        <div class="grid-projetos" id="portfolio-grid">
+            <!-- Atributos data-category adicionados aos cards -->
+            <div class="projeto-item reveal" data-category="js html-css">
+                <div>
+                    <span class="status-badge concluido">Concluído</span>
+                    <h3>Pokedex API</h3>
+                    <p>Aplicação interativa que consome a PokéAPI para exibir informações detalhadas dos Pokémons em tempo real.</p>
+                </div>
+                <a href="https://renanzueres.github.io/Pokedex/" class="btn" target="_blank" rel="noopener">Ver Código</a>
+            </div>
+
+            <div class="projeto-item reveal" data-category="js html-css">
+                <div>
+                    <span class="status-badge concluido">Concluído</span>
+                    <h3>Relógio Digital</h3>
+                    <p>Interface dinâmica desenvolvida com JavaScript para exibição da hora local com atualização automática via DOM.</p>
+                </div>
+                <a href="https://renanzueres.github.io/relogio_html_JS/" class="btn" target="_blank" rel="noopener">Ver Site</a>
+            </div>
+
+            <div class="projeto-item reveal" data-category="js html-css">
+                <div>
+                    <span class="status-badge concluido">Concluído</span>
+                    <h3>Lista de tarefas</h3>
+                    <p>Interface dinâmica desenvolvida com JavaScript para organização diária.</p>
+                </div>
+                <a href="https://renanzueres.github.io/Lista_de_tarefas/" class="btn" target="_blank" rel="noopener">Ver Site</a>
+            </div>
+
+            <div class="projeto-item reveal" data-category="html-css">
+                <div>
+                    <span class="status-badge concluido">Concluído</span>
+                    <h3>Vozes Quilombolas</h3>
+                    <p>Plataforma para catalogar e dar visibilidade à literatura de autores quilombolas.</p>
+                </div>
+                <a href="https://renanzueres.github.io/Vozes-Quilobolas/" class="btn" target="_blank" rel="noopener">Acessar</a>
+            </div>
+
+            <div class="projeto-item reveal" data-category="html-css">
+                <div>
+                    <span class="status-badge concluido">Concluído</span>
+                    <h3>E-commerce afrostore</h3>
+                    <p>Loja virtual focada em camisas estilosas com sistema de pedidos.</p>
+                </div>
+                <a href="https://afrostore.github.io/Site/" class="btn" target="_blank" rel="noopener">Ver Site</a>
+            </div>
+
+            <div class="projeto-item reveal" data-category="js html-css">
+                <div>
+                    <span class="status-badge andamento">Em Andamento</span>
+                    <h3>Controle Financeiro</h3>
+                    <p>Site focado no controle das finanças pessoais.</p>
+                </div>
+                <!-- URL corrigida de Finaceiro para Financeiro -->
+                <a href="https://renanzueres.github.io/Financeiro/" class="btn btn-outline" target="_blank" rel="noopener">Em breve</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>Feito por Renan Bruno · Caucaia, CE</p>
+        <div class="footer-links">
+            <a href="https://github.com/Renanzueres" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/renan-bruno-rocha2805ti" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+    <script src="/assents/JS/script.js"></script>
+</body>
+</html>
