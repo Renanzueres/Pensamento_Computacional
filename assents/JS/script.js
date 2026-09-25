@@ -86,7 +86,7 @@ function initTerminal() {
         { text: '  nome: ' }, { text: "'Renan Bruno'", cls: 'str' }, { text: ',' },
         { text: '  papel: ' }, { text: "'Dev em formação'", cls: 'str' }, { text: ',' },
         { text: '  stack: [' }, { text: "'HTML', 'CSS', 'JS', 'Python'", cls: 'str' }, { text: '],' },
-        { text: '  cidade: ' }, { text: "'Fortaleza, CE'", cls: 'str' },
+        { text: '  cidade: ' }, { text: "'Caucaia, CE'", cls: 'str' },
         { text: '};' },
     ];
 
@@ -96,7 +96,7 @@ function initTerminal() {
         '  nome: <span class="str">\'Renan Bruno\'</span>,\n',
         '  papel: <span class="str">\'Dev em formação\'</span>,\n',
         '  stack: [<span class="str">\'HTML\', \'CSS\', \'JS\', \'Python\'</span>],\n',
-        '  cidade: <span class="str">\'Fortaleza, CE\'</span>\n',
+        '  cidade: <span class="str">\'Caucaia, CE\'</span>\n',
         '};',
     ].join('');
 
@@ -110,7 +110,7 @@ function initTerminal() {
         "  nome: 'Renan Bruno',",
         "  papel: 'Dev em formação',",
         "  stack: ['HTML', 'CSS', 'JS', 'Python'],",
-        "  cidade: 'Fortaleza, CE'",
+        "  cidade: 'Caucaia, CE'",
         "};",
     ];
 
